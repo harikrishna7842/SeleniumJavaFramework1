@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="password" value="9963787555"/>
+  <parameter name="url" value="http://parabank.parasoft.com/parabank/index.htm"/>
+  <parameter name="username" value="shanmuk"/>
+  <test name="CustomerLoginTest(failed)">
+    <parameter name="password" value="9963787555"/>
+    <parameter name="url" value="http://parabank.parasoft.com/parabank/index.htm"/>
+    <parameter name="username" value="shanmuk"/>
+    <classes>
+      <class name="com.hari.selenium.NewTest">
+        <methods>
+          <include name="customerLoginAndLogout" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="customerRegisteration" invocation-numbers="0 1 2 3 4"/>
+          <include name="openNewAccount" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hari.selenium.NewTest -->
+    </classes>
+  </test> <!-- CustomerLoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

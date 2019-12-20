@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20018" started-at="2019-12-05T23:29:46Z" finished-at="2019-12-05T23:30:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20018" started-at="2019-12-05T23:29:46Z" finished-at="2019-12-05T23:30:06Z">
+      <class name="com.hari.selenium.ReadDataFromPropertiesFileTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hari.selenium.ReadDataFromPropertiesFileTest@1057a39]" name="setUp" is-config="true" duration-ms="10751" started-at="2019-12-05T15:29:46Z" finished-at="2019-12-05T15:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getPropertiesAndLogin()[pri:0, instance:com.hari.selenium.ReadDataFromPropertiesFileTest@1057a39]" name="getPropertiesAndLogin" duration-ms="47" started-at="2019-12-05T15:29:56Z" finished-at="2019-12-05T15:29:57Z">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.hari.selenium.ReadDataFromPropertiesFileTest.getPropertiesAndLogin(ReadDataFromPropertiesFileTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPropertiesAndLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hari.selenium.ReadDataFromPropertiesFileTest@1057a39]" name="tearDown" is-config="true" duration-ms="622" started-at="2019-12-05T15:29:57Z" finished-at="2019-12-05T15:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hari.selenium.ReadDataFromPropertiesFileTest@1057a39]" name="setUp" is-config="true" duration-ms="5846" started-at="2019-12-05T15:29:57Z" finished-at="2019-12-05T15:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setProperties()[pri:0, instance:com.hari.selenium.ReadDataFromPropertiesFileTest@1057a39]" name="setProperties" duration-ms="49" started-at="2019-12-05T15:30:03Z" finished-at="2019-12-05T15:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperties -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hari.selenium.ReadDataFromPropertiesFileTest@1057a39]" name="tearDown" is-config="true" duration-ms="2520" started-at="2019-12-05T15:30:03Z" finished-at="2019-12-05T15:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hari.selenium.ReadDataFromPropertiesFileTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

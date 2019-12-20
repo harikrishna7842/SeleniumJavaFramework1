@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="CustomerLoginTest">
+  <parameter name="url" value="http://parabank.parasoft.com/parabank/index.htm"/>
+  <parameter name="username" value="shanmuk"/>
+  <parameter name="password" value="9963787555"/>
+    <classes>
+    <class name="com.hari.selenium.parameters.ParameterTest"/>
+      <class name="com.hari.selenium.NewTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
