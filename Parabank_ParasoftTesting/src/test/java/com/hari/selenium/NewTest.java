@@ -65,7 +65,7 @@ public class NewTest
 	  driver.findElement(By.xpath("//input[contains(@name,'customer.firstName')]")).sendKeys(firstname+Keys.TAB+lastname+Keys.TAB+address+Keys.TAB+city+Keys.TAB+state+Keys.TAB+pincode+Keys.TAB+phonenumber+Keys.TAB+ssn);
 	  driver.findElement(By.xpath("//input[contains(@name,'customer.username')]")).sendKeys(username+Keys.TAB+password+Keys.TAB+password);
 	  driver.findElement(By.xpath("//input[@value='Register']")).click();
-	  Thread.sleep(10000);
+	  Thread.sleep(20000);
 		}
 	  
 
